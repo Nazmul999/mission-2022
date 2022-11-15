@@ -3,3 +3,37 @@ body{
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+h1{
+    font-size: 50px;
+}
+.flexible-content{
+    display: flex;
+}
+.tomato-color{
+    color: tomato;
+}
+.focus{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice:1 ;
+    width: 90%;
+    padding-left:3% ;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-image:linear-gradient(tomato, orange);
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.half-width{
+    width: 40%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.top-banner{
+    margin-bottom: 150px;
+}
