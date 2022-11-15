@@ -5,6 +5,10 @@ body{
 }
 h1{
     font-size: 50px;
+    font-weight: 900;
+}
+p{
+    text-align: justify;
 }
 .flexible-content{
     display: flex;
@@ -29,6 +33,7 @@ h1{
 }
 .half-width{
     width: 40%;
+    margin-left: 5%;
     padding-left: 5%;
 }
 .half-width img{
@@ -36,4 +41,31 @@ h1{
 }
 .top-banner{
     margin-bottom: 150px;
+}
+.mission{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.my-mission-item{
+    Width:360px;
+    Height:376px;
+    margin: 1%;
+    padding: 3%;
+    border-radius: 15px;
+    
+}
+.my-mission-item img{
+    width: 50%;
+}
+.text-center{
+    text-align: center;
+}
+#mission{
+    background-color: rgba(79, 157, 166, 0.1);
+}
+#vision{
+    background-color:rgba(255, 89, 89, 0.1);
+}
+#Goals{
+    background-color: #FFF4D6;
 }
