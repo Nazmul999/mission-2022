@@ -4,8 +4,12 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 50px;
+    font-size: 48px;
     font-weight: 900;
+}
+h2{
+    font-size: 40px;
+    font-weight: 900.;
 }
 p{
     text-align: justify;
@@ -25,21 +29,21 @@ p{
 }
 .link-button{
     text-decoration: none;
-    color: white;
-    background-image:linear-gradient(tomato, orange);
+    color: black;
+    background-image:linear-gradient(orange, rgb(233, 182, 14));
     padding: 15px;
     border-radius: 5px;
     font-weight: 700;
 }
 .half-width{
     width: 40%;
-    margin-left: 5%;
-    padding-left: 5%;
+    margin:0% 5%;
+    padding: 3%;
 }
 .half-width img{
-    width: 80%;
+    width: 90%;
 }
-.top-banner{
+.top-banner,.mission, .develop-area{
     margin-bottom: 150px;
 }
 .mission{
@@ -68,4 +72,15 @@ p{
 }
 #Goals{
     background-color: #FFF4D6;
+}
+.bg-img{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+}
+.develop-area{
+    background-position: left;
+}
+.know-area{
+    background-position: right;
 }
